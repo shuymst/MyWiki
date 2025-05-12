@@ -9,7 +9,7 @@ with mlflow.start_run():                         # 1回のRunを記録
     mlflow.pytorch.log_model(model, "model")     # モデル保存
 ```
 
-以下のコマンドをシェルで実行し, http://localhost:5000にアクセスすることでUIにアクセスできる
+以下のコマンドをシェルで実行し, [http://localhost:5000](http://localhost:5000)にアクセスすることでUIにアクセスできる
 ```bash
 mlflow ui
 ```
